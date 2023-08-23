@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 80px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #EAEAEA;
+    color: #050404;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: -100px;
+}
+h2{
+    color: black;
+    margin-left: 200px;
+}
+.whaite{
+    position: relative;
+    background-color: #F0F757;
+    width: 250px;
+    height: 50px;
+    margin-left: -10px;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+    
+    
+}
+nav ul li a{
+    color: #12130F;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+select{
+    border: none;
+    background: #EAEAEA;
+}
+.nd-ul button{
+    height: 39px;
+    width: 100px;
+    border-radius: 12px;
+    border: 1px solid #61707D;
+    color: #61707D;
+    
+}
+.nd-ul li{
+    border: 2px solid #61707D;
+    border-radius: 150vh;
+}
+.nd-ul{
+    padding-left: -10px;
+}
+.heading-div{
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.heading-div p{
+    color: #61707D;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#Vectors{
+    
+    height: 33px;
+    border-radius: 4px;
+    position: absolute;
+    
+}
+input{
+   
+    height: 33px;
+    width: 55vh;
+    border: #61707D;
+    background: white;
+    border-radius: 4px;
+    
+}
+.search-bar{
+    text-align: center;
+    margin-top: 18px;
+    background-color: #EAEAEA;
+    
+}
+input::placeholder{
+    color: #61707D;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.search-bar select{
+    background-color: white;
+    border: 1px solid #61707D;
+    color: #61707D;
+    width: 80px;
+    text-align: center;
+}
+.search-bar button a{
+    color: #61707D;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    left: -40px;
+    
+}
+.search-bar button{
+    border: none;
+    
+    
+}
+
+
+
