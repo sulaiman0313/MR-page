@@ -158,14 +158,14 @@ nav .down li a{
     justify-content: center;
     
 }
-.image1{
+.image{
     /* border: 2px solid red; */
     height: 400px;
     width: 400px;
     border-radius: 25px;
     margin: 5px ;
 }
-.image2{
+.image{
     background-color: #EAEAEA;
     height: 400px;
     width: 400px;
@@ -173,13 +173,13 @@ nav .down li a{
     margin: 5px;
     
 }
-.image3{
+.image{
     /* border: 2px solid red; */
     height: 400px;
     width: 400px;
     margin: 5px;
 }
-.iimage2 img{
+.iimage img{
     height: 250px;
     width: 300px;
     border-radius: 25px;
@@ -187,7 +187,7 @@ nav .down li a{
     margin-left: 30px;
     
 }
-.text2{
+.text{
     margin-left: -140px;
     margin-top: 12px;
     
@@ -196,40 +196,43 @@ span{
     font-family: 'ADLaM Display', cursive;
     color: #D7263D;
     font-size: 33px;
+    margin-top: -14px;
 }
-.text2 h2{
+.text h2{
     color: #61707D;
 }
-.iimgae1 img{
+.iimgae img{
     height: 250px;
     width: 300px;
     border-radius: 25px;
     margin-top: 50px;
     margin-left: 37px;
 }
-.text1 h2{
-    margin-left: 60px;
+.text h2{
+    display: flex;
     color: #61707D;
+    margin-left: -12px;
 }
-.iimage3 img{
+.iimage img{
     height: 250px;
     width: 300px;
     border-radius: 25px;
     margin-top: 50px;
     margin-left: 37px;
 }
-.text3{
-    display: grid;
+.text{
+    display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid red;
     margin: 0px auto;
     
 }
-.text3 h2{
+.text h2{
     border: 1px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
 
