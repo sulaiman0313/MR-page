@@ -221,6 +221,7 @@ span{
     margin-left: 37px;
 }
 .text{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,7 +233,25 @@ span{
     border: 1px solid black;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 
+}
+.link li a{
+    color: #050404;
+    font-size: 28px;
+    
+}
+.link li{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 15px;
+    
+}
+.link ul li a{
+    list-style: none;
+    text-decoration: none;
 }
 
 
