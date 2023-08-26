@@ -30,12 +30,16 @@ h2{
     width: 250px;
     height: 50px;
     margin-left: -10px;
+    
 
 }
+
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
+    
+    
     
     
     
@@ -44,6 +48,8 @@ nav ul li a{
     color: #12130F;
     text-decoration: none;
     font-size: 15px;
+    font-weight: 600;
+    transition: transform .4s;
     
 }
 select{
@@ -51,7 +57,7 @@ select{
     background: #EAEAEA;
 }
 .nd-ul button{
-    height: 39px;
+    height: 40px;
     width: 100px;
     border-radius: 12px;
     border: 1px solid #61707D;
@@ -225,12 +231,12 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     
 }
 .text h2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -238,7 +244,9 @@ span{
 }
 .link li a{
     color: #050404;
-    font-size: 28px;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
     
 }
 .link li{
@@ -252,6 +260,16 @@ span{
 .link ul li a{
     list-style: none;
     text-decoration: none;
+    transition: transform .4s;
+}
+.link ul li a:hover{
+    transform: scale(1.2);
+    color: #D7263D;
+   
+}
+nav ul li a:hover{
+    transform: scale(1.2);
+    color: #06BEE1;
 }
 
 
