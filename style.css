@@ -274,5 +274,12 @@ nav ul li a:hover{
     transform: scale(1.2);
     color: #06BEE1;
 }
+input[type=search]{
+    color: #0197F6;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
 
 
